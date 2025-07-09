@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head Section (Instructions 2 & 3) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+name="description" content="Explore a variety of indoor plants for your home or office.">
+    <title>Indoor Plants</title>
+
+    <!-- Custom CSS for Styling -->
+    <style>
+        /* Importing a pixel-style font to match the theme */
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            /* Pixelated flower shop background -- This is set up to cover the full page */
+            background-image: url('https://i.imgur.com/T5V2vA7.png');
+            background-size: cover; /* This makes the image cover the entire background */
+            background-position: center; /* This centers the image */
+            background-attachment: fixed; /* This keeps the background in place when you scroll */
+            
+            /* Setting the pixel font and a fallback */
+            font-family: 'Press Start 2P', cursive;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            background-color: rgba(255, 255, 245, 0.85); /* Semi-transparent background for readability */
+            padding: 30px;
+            border: 4px solid #5d4037;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #4a2e2a;
+            font-size: 2em; /* 2em means twice the size of the body's font */
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #6a994e;
+            border-bottom: 3px solid #6a994e;
+            padding-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6; /* For better readability */
+            font-size: 0.8em;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #bc4749;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 150px;
+            height: auto;
+            border: 4px solid #5d4037;
+            border-radius: 5px;
+            image-rendering: pixelated; /* Ensures the pixel art doesn't look blurry */
+        }
+    </style>
+</head>
+<body>
+    <!-- Body Section (Instruction 4) -->
+    <div class="container">
+        <h1>Indoor Plants</h1>
+
+        <!-- Peace Lily Section -->
+        <div>
+            <h2>Peace Lily</h2>
+            <p>The Peace Lily, known for its elegant white flowers, is a popular choice for indoor spaces.</p>
+            <p class="price">Price: $15</p>
+            <!-- Custom pixel-art style image for the Peace Lily (NEW, WORKING IMAGE) -->
+            <img src="https://i.imgur.com/uGOU82r.png" alt="Pixel art Peace Lily">
+        </div>
+
+        <!-- Zanzibar Gem Section -->
+        <div>
+            <h2>Zanzibar Gem</h2>
+            <p>The Zanzibar Gem, with its glossy green foliage, is a low-maintenance indoor plant perfect for beginners.</p>
+            <p class="price">Price: $20</p>
+            <!-- Custom pixel-art style image for the Zanzibar Gem (NEW, WORKING IMAGE) -->
+            <img src="https://i.imgur.com/gOAZYyT.png" alt="Pixel art Zanzibar Gem">
+        </div>
+    </div>
+</body>
+</html>
